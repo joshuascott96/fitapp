@@ -1,4 +1,4 @@
-import coaching from '../assets/coaching.png'
+import coaching from '../assets/coaching.jpg'
 import { NavLink } from 'react-router-dom'
 import { Link } from 'react-scroll'
 

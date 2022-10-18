@@ -1,4 +1,4 @@
-import hero from '../assets/hero-main.png'
+import hero from '../assets/hero-main.jpg'
 import { Link } from 'react-scroll'
 import { FaInstagram } from 'react-icons/fa'
 

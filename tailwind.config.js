@@ -6,8 +6,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'running': "url('assets/running-blurred.png')",
-        'flex': "url('assets/flex-burred.png')",
+        'running': "url('assets/running-blurred.jpg')",
+        'flex': "url('assets/flex-burred.jpg')",
       },
   }
   },
