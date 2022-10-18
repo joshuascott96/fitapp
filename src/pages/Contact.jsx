@@ -3,7 +3,7 @@ function Contact() {
   return (
     <>
           <div className='flex w-full my-8 bg-[#ffc8dd]'>
-            <div className='content max-w-2xl'>
+            <div className='content-contact'>
                 <div className='text-center text-[#d47699]'>
                     <div className='p-10'>
                         <h2 className='font-extrabold text-4xl'>Coaching Enquiry Form</h2>
@@ -14,7 +14,7 @@ function Contact() {
                   <form method='POST' action='https://getform.io/f/cff878ae-3a16-4465-ae19-ce97c2224351'>
                     <div className='sm:grid grid-cols-2 gap-4'>
                       <h3 className='col-span-2 pb-2 font-bold border-b-2 text-[#b092c2] border-[#b092c2]'>Personal Details</h3>
-                      <div>
+                      <div className='mt-2 sm:mt-0'>
                         <label for='first-name' className="text-xs">First Name</label>
                           <input
                             className="w-full px-4 py-4 mt-1 text-sm bg-[#f8f8f8] text-[#777] rounded-lg focus:outline-[#777]" 
@@ -55,7 +55,7 @@ function Contact() {
                           />
                       </div>
                       <h3 className='col-span-2 mt-6 pb-2 font-bold border-b-2 text-[#b092c2] border-[#b092c2]'>Your Fitness Experience & Goals</h3>
-                      <div>
+                      <div className='mt-2 sm:mt-0'>
                         <label for='Fitness Experience' className="text-xs">Fitness Experience</label>
                           <input
                             className="w-full px-4 py-4 mt-1 text-sm bg-[#f8f8f8] text-[#777] rounded-lg focus:outline-[#777]" 

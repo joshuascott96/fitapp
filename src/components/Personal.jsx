@@ -8,8 +8,8 @@ function Personal() {
       <div name='personal' className='w-full md:h-screen bg-[#ffc8dd] grid lg:grid-cols-2'>
         <div className='w-full md:h-screen flex md:items-center'>
           <div className='text-[#d47699] text-left px-10'>
-            <div className='py-14 sm:py-20 md:py-0'>
-              <h2 className='font-extrabold text-3xl lg:text-4xl'>Personal Online Coaching</h2>
+            <div className='pt-20 pb-8 sm:py-20 md:py-0'>
+              <h2 className='font-extrabold text-4xl'>Personal Online Coaching</h2>
               <p className="pt-6">One-On-One Personalised Online Coaching is designed for the individual who is looking for a fully comprehensive personalised workout and nutrition program. This program will assist you in completely transforming your lifestyle one block at a time. </p>
               <p className='pt-6'>Whats included?</p>
               <ul className='mt-4 pl-4 border-[#a587b7] border-l-4 space-y-2'>

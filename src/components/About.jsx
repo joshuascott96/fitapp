@@ -12,7 +12,7 @@ function About() {
             <div className='w-full md:h-screen flex md:items-center'>
               <div className='text-[#d47699] text-left px-10'>
                   <div className='py-14 sm:py-20 md:py-0'>
-                    <h2 className='font-extrabold text-3xl lg:text-5xl'>Hi there, I'm Jamie!</h2>
+                    <h2 className='font-extrabold text-5xl'>Hi there, I'm Jamie!</h2>
                     <p className='pt-10'>I am the coach and founder of Coached By Jamie. I am a certified personal trainer with a passion for fitness and living a healthy lifestyle. Join me on your fitness journey and let me unlock your potential to feel empowered, confident and strong.</p>
                     <p className='pt-10'>I am currently offering my potential clients either, month-to-month, 6 week or 12 week workout and nutrition packages. Each of these are personally tailored to each individual and their needs.  </p>
                     <div className='space-x-4 mt-6 flex justify-center sm:justify-start'>

@@ -15,7 +15,7 @@ function Main() {
                   <p className='bg-[#d47699] rounded-full p-4'><FaInstagram  size={25}/></p>
               </div>
             </a>
-            <div className='content text-center'>
+            <div className='content-faq text-center'>
               <h1 className='font-extrabold text-[#fff] text-5xl sm:text-7xl italic tracking-tighter uppercase -ml-20'>Lift Heavy</h1>
               <h1 className='font-extrabold text-[#FFC8DD] text-5xl sm:text-7xl italic tracking-tighter uppercase ml-8 sm:ml-20 -mt-3 sm:-mt-4'>Live Healthy</h1>
               <h1 className='font-extrabold text-[#BDE0FE] text-5xl sm:text-7xl italic tracking-tighter uppercase sm:ml-20 -mt-3 sm:-mt-4'>Be Happy</h1>
