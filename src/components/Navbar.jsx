@@ -37,9 +37,14 @@ function Navbar() {
                         */ }                    
                     </ul>
                 </div>
-                <div onClick={handleClick} className='md:hidden relative z-10 cursor-pointer border-2 border-[#fff] hover:bg-[#fff] text-[#fff] hover:text-[#000] transition-colors duration-300 rounded-full p-4 shadow-2xl'>
-                    {!nav ? <GiHamburgerMenu size={20} /> : <FaTimes size={20} />}
+                <div className='flex md:hidden'>
+                    <ul className={activePath ? 'nav-menu-white' : 'nav-menu-pink'}>
+                        <NavLink to={activePath ? '/contact' : '/'} className={!activePath ? 'btn-primary mr-0' : 'btn-secondary mr-0'}><li>{activePath ? 'Enquire' : 'Back Home'}</li></NavLink>
+                    </ul>
                 </div>
+                {/*<div onClick={handleClick} className='md:hidden relative z-10 cursor-pointer border-2 border-[#fff] hover:bg-[#fff] text-[#fff] hover:text-[#000] transition-colors duration-300 rounded-full p-4 shadow-2xl'>
+                    {!nav ? <GiHamburgerMenu size={20} /> : <FaTimes size={20} />}
+                </div> */}
             </div>
         </div>
     </div>
