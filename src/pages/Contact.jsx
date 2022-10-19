@@ -1,4 +1,4 @@
-import {Link} from 'react-router-dom'
+import {Link, Navigate} from 'react-router-dom'
 function Contact() {
   return (
     <>
@@ -87,7 +87,7 @@ function Contact() {
                       </div>
                     </div>
                     <div className='mt-4'>
-                    <button className="w-full py-3 font-bold duration-300 bg-[#c9a6dd] hover:bg-[#b092c2] text-[#fff] rounded-lg">Submit</button>
+                      <button className="w-full py-3 font-bold duration-300 bg-[#c9a6dd] hover:bg-[#b092c2] text-[#fff] rounded-lg">Submit</button>
                     </div>
                   </form>
               </div>
