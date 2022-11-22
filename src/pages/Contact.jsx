@@ -1,5 +1,7 @@
-import {Link, Navigate} from 'react-router-dom'
+import { Link } from 'react-router-dom'
+
 function Contact() {
+
   return (
     <>
           <div className='flex w-full my-8 bg-[#ffc8dd]'>

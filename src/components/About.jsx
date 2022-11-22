@@ -17,7 +17,7 @@ function About() {
                     <p className='pt-10'>I am currently offering my potential clients either, month-to-month, 6 week or 12 week workout and nutrition packages. Each of these are personally tailored to each individual and their needs.  </p>
                     <div className='space-x-4 mt-6 flex justify-center sm:justify-start'>
                         <Link to='personal' smooth={true} duration={500}><button className='mt-10 uppercase font-bold btn-primary text-sm px-8 py-4'>Packages</button></Link>
-                        <NavLink to='/contact'><button className='mt-10 uppercase font-bold text-xs px-4 py-4 text-[#d47699] hover:border-b-2 hover:border-[#d47699] duration-300'>Enquiry Form</button></NavLink>
+                        <NavLink to='/contact'><button className='mt-11 uppercase font-bold text-xs px-4 py-4 text-[#d47699] hover:border-b-2 hover:border-[#d47699] duration-300'>Enquiry Form</button></NavLink>
                     </div>
                   </div>
               </div>

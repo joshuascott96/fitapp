@@ -1,6 +1,5 @@
 import coaching from '../assets/coaching.jpg'
 import { NavLink } from 'react-router-dom'
-import { Link } from 'react-scroll'
 
 function Personal() {
   return (
@@ -21,9 +20,10 @@ function Personal() {
               </ul>
               <div className='mt-8'>
                 <p>Interested? fill out the form below and ill get in touch!</p>
-                <div className='flex justify-center sm:justify-start'>
-                  <NavLink to='/contact'><button className='mt-8 uppercase font-bold text-sm btn-primary px-8 py-4 '>Enquiry Form</button></NavLink>
-                </div>
+                <div className='space-x-4 mt-6 flex justify-center sm:justify-start'>
+                        <NavLink to='/contact'><button className='mt-10 uppercase font-bold btn-primary text-sm px-8 py-4'>Enquiry Form</button></NavLink>
+                        <a href='https://www.trainerize.me/checkout/coachedbyjamie/Jamie.Hockings?planGUID=fb0c193f8ab9400daa35b760ca3d5c7a&mode=checkout'><button className='mt-11 uppercase font-bold text-xs px-4 py-4 text-[#d47699] hover:border-b-2 hover:border-[#d47699] duration-300'>Purchase</button></a>
+                    </div>
              </div>
             </div>
           </div>
