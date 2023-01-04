@@ -5,7 +5,9 @@ import Contact from './pages/Contact'
 import Success from './pages/Success'
 import Footer from './components/Footer';
 import ScrollToTop from './ScrollToTop'
-
+import ReactGA from "react-ga4";
+ReactGA.initialize("G-2G4HPFGC4G");
+ReactGA.send("pageview");
 function App() {
   return (
     <>
